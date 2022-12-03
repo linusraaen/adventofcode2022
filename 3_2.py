@@ -15,8 +15,7 @@ with open("3.txt") as f:
         for j in i[0]:
             if i[1].find(j)!=-1:
                 if i[2].find(j)!=-1:
-                    liste.append(j)
+                    sum+=bokstav.index(j)
                     break
-    for i in liste:
-        sum+=bokstav.index(i)
+
     print(sum)
