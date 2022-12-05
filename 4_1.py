@@ -1,5 +1,6 @@
 import re
 sum=0
+
 with open("4.txt") as f:
     for line in f:
         line=line.strip()
