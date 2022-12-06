@@ -27,8 +27,6 @@ with open("5.txt") as f:
         if line!=['\n']: 
             for i in range(int(line[0])):
                 (stacks[int(line[2])-1]).insert(0,stacks[int(line[1])-1].pop(0))
-            
-            stacks[int(line[2])-1]=temp
     for i in stacks:
         print(i.pop(0))
         
